@@ -8,6 +8,7 @@ const dbConfigHeroku = {
   password: "800cb4bc",
   database: "heroku_b44c5164b905863",
   multipleStatements: false,
+  namedPlaceholders: true,
 };
 
 const dbConfigLocal = {
